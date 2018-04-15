@@ -13,6 +13,7 @@ public class Test {
 		ll.add(new Student(2,"Varsha","Bhopal"));
 		ll.add(new Student(5,"Amit","Premnagar"));
 		ll.add(new Student(7,"Shaggy","Premnagar"));
+		ll.remove(2);
 		System.out.println((Student)abc);
 		
 		
