@@ -1,0 +1,36 @@
+package com.sort;
+
+import java.util.Comparator;
+
+public class Student {
+	public int rollNo;
+	public String name; 
+	public String address;
+	
+	
+	
+	Student(int rollNo,String name,String address){
+		this.rollNo = rollNo;
+		this.name = name;
+		this.address = address;
+	}
+	
+	public int getRollNo() {
+		return rollNo;
+	}
+	public void setRollNo(int rollNo) {
+		this.rollNo = rollNo;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getAddress() {
+		return address;
+	}
+	public void setAddress(String address) {
+		this.address = address;
+	}
+}
